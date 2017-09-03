@@ -136,3 +136,12 @@ button[disabled=disabled], button:disabled {
 .paciente-invalido{
 	background-color: lightcoral;
 }
+
+.mensagem-alerta{
+	color: red;
+}
+
+.esmaecer{
+	opacity: 0;
+	transition: 0.5s;
+}
