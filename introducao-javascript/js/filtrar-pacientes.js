@@ -10,7 +10,7 @@ campoFiltro.addEventListener("input", function() {
             var nome = tdNome.textContent;
             //var expressao = new RegExp(this.value, "i");
             //if (!expressao.test(nome)) 
-            if (!(this.value == nome.substr(0, this.value.length))) {
+            if (!(this.value.toLowerCase() == nome.toLowerCase().substr(0, this.value.length))) {
                 paciente.classList.add("invisivel");
             } else {
                 paciente.classList.remove("invisivel");
